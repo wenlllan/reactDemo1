@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 62.5vw;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.left-box{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    padding: 3vw 4vw;
+    background-image: url("./img/left_bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.logo{
+    width: 12vw;
+    margin: 0 auto;
+}
+.logo > img{
+    width: 100%;
+}
+.left-box > .menu{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vw;
+}
+.left-box > .menu > ul > li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}
+.left-box > .menu > ul > li >a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    line-height: 80px;
+    /*因為超連結是行內元素 所以沒有寬高範圍 */
+    /*寬高範圍是內容撐開的*/
+     /*轉換成區塊元素*/
+    display: block;
+    /*橫向排列：inline-block*/
+
+}
+.left-box > .bottom-img{
+    justify-content: end;
+}
+.right-box{
+    width: 47.5vw;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+.right-box > .main-banner{
+    width: 46vw;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.right-box > .main-banner >img{
+    width: 100%;
+}
+
+.right-box >.news > .title{
+    font-size: 32px;
+    color: #067c16;
+    text-align: center;
+    margin: 10px 0;
+}
+.right-box >.news > .content{
+    font-size: 20px;
+    padding: 10px 20px;
+
+}
+.right-box > .right-bottom{
+    display: flex;
+    justify-content:space-between;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin: 10px 20px;
+}
+.right-box  .right-bottom .right-bottom-div {
+    /* background-color: rgb(255, 177, 177); */
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding: 40px 20px;
+}
+.container .right-bottom .right-bottom-div .b1{
+    background-color: #fed0cd;
+}
+.right-box .right-bottom .right-bottom-div .b2{
+    background-color: #fff3a8;
+}
+.right-box .right-bottom .right-bottom-div .b3{
+    background-color: #c1eab3;
+}
+
+.right-box > .right-bottom > .right-bottom-div-b1 > .btn-img{
+    width: 12vw;
+    height: auto;
+}
+.right-box > .right-bottom > .right-bottom-div > h3{
+    text-align: center;
+    margin: 10px 0;
+}
+.right-box > .right-bottom > .right-bottom-div > p{
+    margin-bottom: 10px;
+}
+.right-box > .right-bottom > .right-bottom-div > a{
+    color:#fff;
+    text-decoration: none;
+    background-color: #7a6361;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer{
+    background-color:#067c16;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+}
