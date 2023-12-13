@@ -52,7 +52,7 @@
     justify-content: end;
 }
 .right-box{
-    width: 47.5vw;
+    width: 900px;
     display: flex;
     flex-direction: column;
     background-color: beige;
