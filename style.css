@@ -84,12 +84,13 @@
     border-bottom: 2px solid #000;
     margin: 10px 20px;
 }
-.right-box  .right-bottom .right-bottom-div {
+.right-bottom-div {
     /* background-color: rgb(255, 177, 177); */
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     width: 220px;
     padding: 40px 20px;
+    /* border: 1px solid red; */
 }
 .container .right-bottom .right-bottom-div .b1{
     background-color: #fed0cd;
@@ -102,8 +103,8 @@
 }
 
 .right-box > .right-bottom > .right-bottom-div-b1 > .btn-img{
-    width: 12vw;
-    height: auto;
+    width: 100%;
+    /* height: auto; */
 }
 .right-box > .right-bottom > .right-bottom-div > h3{
     text-align: center;
